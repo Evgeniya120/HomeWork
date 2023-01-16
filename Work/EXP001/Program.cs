@@ -1,5 +1,5 @@
-﻿int A = 5;
-int B = 7;
+﻿int A = -9;
+int B = -3;
 
 int max;
 int min;
@@ -17,3 +17,4 @@ else
 }
 
 Console.WriteLine(max);
+Console.WriteLine(min);
