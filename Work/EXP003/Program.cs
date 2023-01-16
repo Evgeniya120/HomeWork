@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+
+     int n = 47;
+     string text;
+        
+        if (n % 2 == 0)
+        {
+            text = "Да";
+        }
+        else
+        {
+            text = "Нет";
+        }
+        Console.WriteLine(text);
+
+    
+  
