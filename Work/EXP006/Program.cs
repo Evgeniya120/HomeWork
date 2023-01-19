@@ -9,13 +9,15 @@
 Console.WriteLine("Введите трехзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if(a >99)
+if(a >99 & a < 999)
 {
   Console.WriteLine((a % 10));
 }
 else
 {
-  if(a >99)
+  if(a >99 & a < 999)
   a = a / 10;
   Console.WriteLine("Третьей цифры нет");
 }
+
+//При введении числа более 3 цифр, выводит последнюю цифру, либо сообщает, что последней цифры нет.
