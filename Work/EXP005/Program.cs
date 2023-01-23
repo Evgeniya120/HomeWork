@@ -8,11 +8,11 @@ Console.Write("Введите трехзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 if (100 <= a & a <= 999)
 {
-  a /= 10;
-  a = a % 10;
-  Console.WriteLine(a);
+    a /= 10;
+    a = a % 10;
+    Console.WriteLine(a);
 }
 else
 {
-Console.WriteLine("Введите трехзначное число");
+    Console.WriteLine("Введите трехзначное число");
 }
